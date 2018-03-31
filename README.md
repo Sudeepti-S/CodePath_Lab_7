@@ -23,11 +23,7 @@ Time spent: **10** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.5
   - [ ] GIF Walkthrough: ![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/Vulnerability2.gif)
-  - [ ] Steps to recreate: 
-Go to the Media Library tab,
-Upload a new image,
-Change the title of the image to <script>alert('XSS!')</script>,
-scroll down and click on the “view attachment page” button
+  - [ ] Steps to recreate: Go to the Media Library tab, upload a new image, change the title of the image to <script>alert('XSS!')</script>, scroll down and click on the “view attachment page” button
 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)

@@ -12,7 +12,7 @@ Time spent: **10** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.10
   - [ ] GIF Walkthrough:![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/XXS1.gif)
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: Go to the Media Library tab, upload a new image, change the title of the image to <script>alert('XSS!')</script>, scroll down and click on the “view attachment page” button
   
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -23,7 +23,14 @@ Time spent: **10** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.5
   - [ ] GIF Walkthrough: ![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/Vulnerability2.gif)
-  - [ ] Steps to recreate: Go to the Media Library tab, upload a new image, change the title of the image to <script>alert('XSS!')</script>, scroll down and click on the “view attachment page” button
+  - [ ] Steps to recreate: 
+Go to the Pages tab,
+Create a new page,
+Under text mode,
+Type in : Link[caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">HOVER HERE</a>>,
+Go to the “Settings” tab ,
+Then under “Permalinks” option, click on the “save changes” button,
+Return to the Page and click on “View Page”  to see the alert
 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -34,6 +41,13 @@ Time spent: **10** hours spent in total
     - Fixed in version: 
   - [ ] GIF Walkthrough: ![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/Vulnerability3.gif) 
   - [ ] Steps to recreate: 
+Go to the Posts tab,
+Go to youtube and search a video, 
+copy the URL of that video under the visual setting, 
+copy the link after discarding the text after “?v=“ in the URL,
+Modify the link as such : <script>alert('XSS!')</script>,
+Then copy the new link,
+Go to the Insert/edit link option and copy that link into both the options(URL/Link text) 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
     1. (Required) Vulnerability Four: Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
@@ -43,6 +57,11 @@ Time spent: **10** hours spent in total
     - Fixed in version: 
   - [ ] GIF Walkthrough: ![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/Vulnerability4.gif) 
   - [ ] Steps to recreate: 
+Go to the Pages tab 
+Create a new page 
+Under the text option, type  “<a href="[caption code=">]</a><a title=" onmouseover=alert('test') ">link</a>”
+Update the page 
+Then click, “View Page” 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ## Assets

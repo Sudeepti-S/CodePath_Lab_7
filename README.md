@@ -8,7 +8,7 @@ Time spent: **10** hours spent in total
 
 1. (Required) Vulnerability One: Authenticated Stored Cross-Site Scripting via Image Filename
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.10
   - [ ] GIF Walkthrough:![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/XXS1.gif)
@@ -19,7 +19,7 @@ Time spent: **10** hours spent in total
     (https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
 1. (Required) Vulnerability Two: Authenticated Shortcode Tags Cross-Site Scripting (XSS) 
   - [ ] Summary: 
-    - Vulnerability types: 
+    - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.5
   - [ ] GIF Walkthrough: ![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/Vulnerability2.gif)
@@ -36,7 +36,7 @@ Return to the Page and click on “View Page”  to see the alert
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Three: Authenticated Shortcode Tags Cross-Site Scripting (XSS) via YouTube
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: ![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/Vulnerability3.gif) 
@@ -52,9 +52,9 @@ Go to the Insert/edit link option and copy that link into both the options(URL/L
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
     1. (Required) Vulnerability Four: Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: ![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/Vulnerability4.gif) 
   - [ ] Steps to recreate: 
 Go to the Pages tab 

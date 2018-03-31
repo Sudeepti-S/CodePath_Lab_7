@@ -10,7 +10,7 @@ Time spent: **10** hours spent in total
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.2.10
   - [ ] GIF Walkthrough:![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/XXS1.gif)
   - [ ] Steps to recreate: 
   
@@ -27,6 +27,15 @@ Time spent: **10** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Three: Authenticated Shortcode Tags Cross-Site Scripting (XSS) via YouTube
+  - [ ] Summary: 
+    - Vulnerability types:
+    - Tested in version: 4.2
+    - Fixed in version: 
+  - [ ] GIF Walkthrough: ![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/Vulnerability3.gif) 
+  - [ ] Steps to recreate: 
+  - [ ] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    1. (Required) Vulnerability Four: Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version: 4.2

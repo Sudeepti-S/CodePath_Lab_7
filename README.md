@@ -39,7 +39,7 @@ Return to the Page and click on “View Page”  to see the alert
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.7.3
   - [ ] GIF Walkthrough: ![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/Vulnerability3.gif) 
   - [ ] Steps to recreate: 
 Go to the Posts tab,

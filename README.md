@@ -67,7 +67,7 @@ Then click, “View Page”
     - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 ## Assets
 
-List any additional assets, such as scripts or files
+All GIF's were created using Licecap. 
 
 ## Resources
 
@@ -78,7 +78,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Initially, I expiereced a few challenges when setting up the lab environment. This was my first time using Vagrant and Licecap. However, that being said, after those learning curves, I was able to perform the attacks. 
 
 ## License
 

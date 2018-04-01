@@ -55,7 +55,7 @@ Go to the Insert/edit link option and copy that link into both the options(URL/L
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 4.2.13
+    - Fixed in version: 4.2.13, 4.7.3
   - [ ] GIF Walkthrough: ![alt text](https://github.com/Sudeepti-S/Week7CodePath/blob/master/Vulnerability4.gif) 
   - [ ] Steps to recreate: 
 Go to the Pages tab 

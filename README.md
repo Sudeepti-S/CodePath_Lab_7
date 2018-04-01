@@ -65,6 +65,8 @@ Update the page
 Then click, “View Page” 
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
+    - [Link 2](https://wordpress.org/news/2017/03/wordpress-4-7-3-security-and-maintenance-release/)
+    - [Link 3](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 ## Assets
 
 All GIF's were created using Licecap. 
@@ -78,7 +80,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Initially, I expiereced a few challenges when setting up the lab environment. This was my first time using Vagrant and Licecap. However, that being said, after those learning curves, I was able to perform the attacks. 
+Initially, I expiereced a few challenges when setting up the lab environment. This was my first time using Vagrant and Licecap. However, that being said, after those learning curves, I was able to perform the attacks. I enjoyed learning more about XSS attacks through this lab. 
 
 ## License
 

@@ -34,7 +34,7 @@ Return to the Page and click on “View Page”  to see the alert
 
   - [ ] Affected source code: (https://wpvulndb.com/vulnerabilities/8768)
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-    - [Link 2]((https://wpvulndb.com/vulnerabilities/8768))
+    - [Link 2](https://core.trac.wordpress.org/changeset/33359)
 1. (Required) Vulnerability Three: Authenticated Shortcode Tags Cross-Site Scripting (XSS) via YouTube
   - [ ] Summary: 
     - Vulnerability types: XSS

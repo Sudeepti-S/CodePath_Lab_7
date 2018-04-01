@@ -64,7 +64,7 @@ Under the text option, type  “<a href="[caption code=">]</a><a title=" onmouse
 Update the page 
 Then click, “View Page” 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 ## Assets
 
 List any additional assets, such as scripts or files
